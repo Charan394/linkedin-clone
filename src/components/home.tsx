@@ -1,9 +1,10 @@
-import Header from "./Header"
+import Header from "./Header";
+import "../../App.css";
 
 const Home = () => {
   return (
-        <Header/>
-  )
-}
+    <Header />
+  );
+};
 
-export default Home
+export default Home;
