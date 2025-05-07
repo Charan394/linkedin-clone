@@ -1,9 +1,14 @@
 import Header from "./Header";
-import "../../App.css";
+import HomeMainContent from "./Home_main_content/HomeMainContent";
+
 
 const Home = () => {
   return (
+    <>
     <Header />
+  
+  <HomeMainContent/>
+   </>
   );
 };
 
